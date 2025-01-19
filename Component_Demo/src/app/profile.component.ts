@@ -14,4 +14,6 @@ export class ProfileComponent{
     getAge() {
         return this.age;
     }
+    isdisabled = false;
+    // isdisabled = true;
 }
