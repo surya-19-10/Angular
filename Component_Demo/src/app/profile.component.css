@@ -1,0 +1,20 @@
+.active{
+    background-color: orangered;
+    color: white;
+}
+
+.inactive{
+    background-color: grey;
+    color: white;
+}
+
+p{
+    padding: 10px;
+}
+
+.c1{
+    border: 2px orangered solid;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+}

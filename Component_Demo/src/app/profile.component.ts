@@ -7,5 +7,6 @@ import { Component, ViewEncapsulation } from "@angular/core";
     styleUrl: './profile.component.css'
 })
 export class ProfileComponent{
-    
+    isactive = true;
+    activeC1 = true;
 }

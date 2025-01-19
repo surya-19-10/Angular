@@ -1,1 +1,6 @@
 <h1>Profile Component</h1>
+
+<p [class]="isactive?'active':'inactive'">Class binding</p>
+<p [class]="{c1:activeC1, inactive:true}">Object way binding</p>
+<p [class]="['c1']">Array binding</p>
+<p [class.c1]="true">class.className binding</p>
