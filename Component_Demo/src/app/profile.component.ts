@@ -7,5 +7,10 @@ import { Component, ViewEncapsulation } from "@angular/core";
     styleUrl: './profile.component.css'
 })
 export class ProfileComponent{
-    
+    myStyle = {
+        backgroundColor:'orangered',
+        padding: '10px',
+        color: 'white',
+        borderRadius: '10px'
+    }
 }
